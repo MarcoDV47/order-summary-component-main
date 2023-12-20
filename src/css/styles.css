@@ -1,0 +1,123 @@
+html {
+    font-family: var(--font-1);
+}
+
+body {
+    background-color: var(--primary-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 1.55em;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    max-width: 450px;
+}
+
+section img {
+    margin-bottom: 1em;
+}
+
+.text {
+    padding: 1.5em;
+}
+
+.text h1 {
+    font-weight: 900;
+    margin-bottom: 1em;
+    font-size: 1.35em;
+}
+
+.text p {
+    color: var(--neutral-2);
+    margin: 0 5% 1.2em;
+    font-size: 1em;
+}
+
+div.plan-box {
+    background-color: var(--neutral-1);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+}
+
+.plan-box img {
+    margin: 0 5%;
+}
+
+.plan-box .plan-text {
+    font-size: 0.75em;
+    text-align: left;
+}
+
+.plan-box .plan-text h2 {
+    margin-bottom: 0.4em;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.plan-box .plan-text h3 {
+    color: var(--neutral-2);
+    font-weight: 500;
+}
+
+.plan-box a {
+    margin: 0 5% 0 auto;
+    color: var(--primary-2);
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+.plan-box a:hover{
+    filter: brightness(1.8);
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+}
+
+a.pay-btn {
+    padding: 1em;
+    width: 100%;
+    background-color: var(--primary-2);
+    margin-bottom: 1.5em;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 0.95em;
+    font-weight: 900;
+    box-shadow: 0 14px 20px hsla(245, 75%, 52%, 0.3);
+}
+
+a.pay-btn:hover{
+    filter: brightness(1.4) contrast(0.9);
+}
+
+a.cancel-btn {
+    margin-bottom: 0.8em;
+    color: var(--neutral-2);
+    font-weight: 900;
+}
+
+a.cancel-btn:hover{
+    color: var(--neutral-3);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
